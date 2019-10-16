@@ -1,5 +1,5 @@
 <template>
-  <header class="App-header">
+  <header class="header">
     <h2>{{ titleText }}</h2>
   </header>
 </template>

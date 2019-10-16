@@ -23,7 +23,6 @@
         handleSubmit(event) {
           event.preventDefault();
           emit('search', movieTitle.value);
-          movieTitle.value = '';
         },
         handleChange(event) {
           movieTitle.value = event.target.value
