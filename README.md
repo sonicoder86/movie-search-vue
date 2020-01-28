@@ -1,29 +1,8 @@
 # movie-search-vue
 
-## Project setup
-```
-npm install
-```
+A movie search application showcasing the new Composition API of Vue 3.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+The application is based on Vue 2 and uses the [Composition API](https://vue-composition-api-rfc.netlify.com/) 
+with the [@vue/composition-api](https://github.com/vuejs/composition-api) plugin.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+For the tutorial, read the article on [DEV.to](https://dev.to/blacksonic/build-a-movie-search-app-using-the-vue-composition-api-5218).
