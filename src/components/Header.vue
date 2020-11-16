@@ -8,8 +8,8 @@
   export default {
     name: 'Header',
     props: ['title'],
-    setup({ title }) {
-      return { titleText: title };
+    setup(props) {
+      return { titleText: props.title };
     }
   }
 </script>

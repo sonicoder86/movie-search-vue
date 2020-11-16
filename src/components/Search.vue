@@ -10,13 +10,13 @@
 </template>
 
 <script>
-  import { ref } from '@vue/composition-api';
+  import { ref } from 'vue';
 
   export default {
     name: 'Search',
     props: ['search'],
-    setup({ search }, { emit }) {
-      const movieTitle = ref(search);
+    setup(props, { emit }) {
+      const movieTitle = ref(props.search);
 
       return {
         movieTitle,

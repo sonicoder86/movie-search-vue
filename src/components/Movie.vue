@@ -9,13 +9,13 @@
 </template>
 
 <script>
-  import { computed } from '@vue/composition-api';
+  import { computed } from 'vue';
 
   export default {
     name: "Movie",
     props: ['movie'],
-    setup({ movie }) {
-      const altText = computed(() => `The movie titled: ${movie.Title}`);
+    setup(props) {
+      const altText = computed(() => `The movie titled: ${props.Title}`);
 
       return { altText };
     }
