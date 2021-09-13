@@ -24,7 +24,6 @@
       return {
         state,
         handleSearch(searchTerm) {
-          state.loading = true;
           state.search = searchTerm;
         }
       };
