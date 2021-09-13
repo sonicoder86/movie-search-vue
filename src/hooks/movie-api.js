@@ -11,6 +11,7 @@ export const useMovieApi = () => {
   watch(() => {
     const MOVIE_API_URL = `https://www.omdbapi.com/?s=${state.search}&apikey=${API_KEY}`;
 
+    state.loading = true;
     fetch(MOVIE_API_URL)
       .then(response => response.json())
       .then(jsonResponse => {
